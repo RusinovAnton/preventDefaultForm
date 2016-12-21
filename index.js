@@ -6,15 +6,15 @@ const preventDefault = f => e => {
   f(e)
 }
 
-const PreventDefaultForm = ({ children, submitLabel, onSubmit, buttonClassName, ...props }) => (
+const PreventDefaultForm = ({ children, submitLabel, onSubmit, buttonProps, ...props }) => (
   <form onSubmit={ preventDefault(onSubmit) } { ...props }>
     { children }
-    <button className={ buttonClassName } type="submit">{ submitLabel || 'Submit' }</button>
+    <button type="submit" { ...buttonProps }>{ submitLabel || 'Submit' }</button>
   </form>
 )
 
 PreventDefaultForm.propTypes = {
-  buttonClassName: PropTypes.string,
+  buttonProps: PropTypes.object,
   onSubmit: PropTypes.func.isRequired,
   submitLabel: PropTypes.string,
 }
