@@ -1,0 +1,30 @@
+{
+  "name": "prevent-default-form",
+  "version": "1.0.0",
+  "description": "form that has preventDefault on submit already",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusinovAnton/preventDefaultForm.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "form",
+    "input",
+    "preventDefault",
+    "much",
+    "useful",
+    "such",
+    "component"
+  ],
+  "author": "Rusinov Anton",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/RusinovAnton/preventDefaultForm/issues"
+  },
+  "homepage": "https://github.com/RusinovAnton/preventDefaultForm#readme"
+}
