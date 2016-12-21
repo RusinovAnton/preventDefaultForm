@@ -1,6 +1,11 @@
 # PreventDefaultForm
 React component that helps you to preventDefault on form submit
 
+## Installation
+`npm install --save prevent-default-form`  
+or  
+`yarn add prevent-default-form`  
+
 ## Usage
 Voila! :cherry_blossom:
 ```javascript
