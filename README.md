@@ -2,7 +2,7 @@
 React component that helps you to preventDefault on form submit
 
 ## Usage
-Voila!
+Voila! :cherry_blossom:
 ```javascript
 import PreventDefaultForm from 'prevent-default-form'
 
