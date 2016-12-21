@@ -1,40 +1,40 @@
 {
-    "name": "prevent-default-form",
-    "version": "1.0.0",
-    "description": "form that has preventDefault on submit already",
-    "main": "dist/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/RusinovAnton/preventDefaultForm.git"
-    },
-    "dependencies": {
-        "react": "^15.4.0",
-        "babel-preset-es2015": "^6.16.0",
-        "babel-preset-react": "^6.16.0",
-        "babel-preset-stage-0": "^6.16.0",
-        "gulp": "^3.9.1",
-        "gulp-babel": "^6.1.2",
-        "gulp-browserify": "^0.5.1",
-        "gulp-react": "^3.1.0"
-    },
-    "keywords": [
-        "react",
-        "component",
-        "form",
-        "input",
-        "preventDefault",
-        "much",
-        "useful",
-        "such",
-        "component"
-    ],
-    "author": "Rusinov Anton",
-    "license": "SEE LICENSE IN LICENSE.md",
-    "bugs": {
-        "url": "https://github.com/RusinovAnton/preventDefaultForm/issues"
-    },
-    "homepage": "https://github.com/RusinovAnton/preventDefaultForm#readme"
+  "name": "prevent-default-form",
+  "version": "1.1.0",
+  "description": "form that has preventDefault on submit already",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusinovAnton/preventDefaultForm.git"
+  },
+  "dependencies": {
+    "react": "^15.4.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-react": "^3.1.0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "form",
+    "input",
+    "preventDefault",
+    "much",
+    "useful",
+    "such",
+    "component"
+  ],
+  "author": "Rusinov Anton",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/RusinovAnton/preventDefaultForm/issues"
+  },
+  "homepage": "https://github.com/RusinovAnton/preventDefaultForm#readme"
 }
